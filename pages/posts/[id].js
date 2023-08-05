@@ -1,10 +1,10 @@
 function Post(props){
     return (
         <div>
-            <h1>{props.posts.id}</h1>
+            <h1>Id : {props.posts.id}</h1>
             <hr />
-            <p>{props.posts.title}</p>
-            <p>{props.posts.body} </p>
+            <p>Title : {props.posts.title}</p>
+            <p>Body : {props.posts.body} </p>
         </div>
     )
 }
